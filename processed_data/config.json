@@ -1,0 +1,14 @@
+{
+  "label_map": {
+    "Left": 0,
+    "Right": 1
+  },
+  "fs": 256,
+  "bandpass": [
+    8,
+    30
+  ],
+  "notch_hz": 50,
+  "target_duration_sec": 4.0,
+  "zscore_mode": "channel"
+}

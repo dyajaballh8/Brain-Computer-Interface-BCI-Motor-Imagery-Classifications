@@ -1,0 +1,2 @@
+Copy all the EEG Excel trial files (.xlsx / .xls) into this folder.
+The notebooks read them in natural sorted order (trial_1, trial_2, ..., trial_10) and match them with labels.csv row by row.
