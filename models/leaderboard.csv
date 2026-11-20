@@ -1,0 +1,8 @@
+Model,Type,CV Accuracy,CV ROC-AUC,CV F1-Macro
+EEGConvNet (PyTorch),Deep Learning,0.8641 ± 0.0304,0.9635,0.8625
+SVM (RBF Kernel),Classical ML,0.7437 ± 0.0337,0.8152,0.7437
+Linear SVM,Classical ML,0.7427 ± 0.0377,0.8122,0.7426
+LightGBM,Classical ML,0.7391 ± 0.0294,0.8172,0.7389
+Random Forest,Classical ML,0.7391 ± 0.0300,0.8163,0.7390
+Logistic Regression,Classical ML,0.7380 ± 0.0397,0.8118,0.7379
+XGBoost,Classical ML,0.7313 ± 0.0291,0.8155,0.7312

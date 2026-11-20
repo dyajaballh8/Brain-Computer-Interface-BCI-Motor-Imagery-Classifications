@@ -1,0 +1,21 @@
+{
+  "test_set_size": 480,
+  "best_classical_model": {
+    "name": "Tuned SVM (RBF Kernel)",
+    "params": {
+      "C": 1.0,
+      "gamma": "scale"
+    },
+    "test_accuracy": 0.7270833333333333,
+    "test_balanced_accuracy": 0.7274834609574413,
+    "test_f1_macro": 0.7269399293900007,
+    "test_roc_auc": 0.7975204459030057
+  },
+  "best_deep_model": {
+    "name": "EEGConvNet (PyTorch)",
+    "test_accuracy": 0.9291666666666667,
+    "test_balanced_accuracy": 0.9293639631192374,
+    "test_f1_macro": 0.9291654368999462,
+    "test_roc_auc": 0.9794412321369659
+  }
+}
